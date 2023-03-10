@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022/Arch Linux) (preloaded format=pdflatex 2022.11.22)  10 MAR 2023 22:08
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022/Arch Linux) (preloaded format=pdflatex 2022.11.22)  10 MAR 2023 22:32
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -644,7 +644,7 @@ File: l3backend-pdftex.def 2022-04-14 L3 backend support: PDF output (pdfTeX)
 \l__pdf_internal_box=\box108
 ) (./main.aux
 (./sections/intro.aux) (./sections/kmeans.aux) (./sections/gmm.aux)
-(./sections/em_general.aux) (./sections/vae.aux))
+(./sections/em_general.aux) (./sections/vae.aux) (./appendix/appendix.aux))
 \openout1 = `main.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 69.
@@ -832,7 +832,7 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-<./images/latent.png, id=85, 1107.13625pt x 369.38pt>
+<./images/latent.png, id=95, 1107.13625pt x 369.38pt>
 File: ./images/latent.png Graphic file (type png)
 <use ./images/latent.png>
 Package pdftex.def Info: ./images/latent.png  used on input line 9.
@@ -871,7 +871,7 @@ and I'll forget about whatever was undefined.
 \openout2 = `./sections/gmm.aux'.
 
  (./sections/gmm.tex
-<./images/gmm.png, id=112, 256.96pt x 197.73875pt>
+<./images/gmm.png, id=122, 256.96pt x 197.73875pt>
 File: ./images/gmm.png Graphic file (type png)
 <use ./images/gmm.png>
 Package pdftex.def Info: ./images/gmm.png  used on input line 38.
@@ -895,7 +895,7 @@ Overfull \hbox (33.73181pt too wide) detected at line 112
 [][] 
  []
 
-<./images/em_update.png, id=130, 776.9025pt x 553.06625pt>
+<./images/em_update.png, id=140, 776.9025pt x 553.06625pt>
 File: ./images/em_update.png Graphic file (type png)
 <use ./images/em_update.png>
 Package pdftex.def Info: ./images/em_update.png  used on input line 115.
@@ -913,12 +913,12 @@ Package pdftex.def Info: ./images/em_update.png  used on input line 115.
 
 (./sections/vae.tex
 Chapter 2.
-<./images/dgm.pdf, id=162, 253.89787pt x 116.53172pt>
+<./images/dgm.pdf, id=173, 253.89787pt x 116.53172pt>
 File: ./images/dgm.pdf Graphic file (type pdf)
 <use ./images/dgm.pdf>
 Package pdftex.def Info: ./images/dgm.pdf  used on input line 8.
 (pdftex.def)             Requested size: 126.94862pt x 58.2657pt.
-<./images/encoder.pdf, id=163, 400.0012pt x 264.34709pt>
+<./images/encoder.pdf, id=174, 400.0012pt x 264.34709pt>
 File: ./images/encoder.pdf Graphic file (type pdf)
 <use ./images/encoder.pdf>
 Package pdftex.def Info: ./images/encoder.pdf  used on input line 27.
@@ -931,7 +931,26 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 
 
 
- <./images/dgm.pdf>] [10 <./images/encoder.pdf>]) [11] (./main.bbl
+ <./images/dgm.pdf>] [10 <./images/encoder.pdf>]
+! Undefined control sequence.
+l.66 $$\mathcal{L}(\phi,\theta) = \mathbbm
+                                          {E}_{q_{\phi}(z|x)}[\log p_{\theta...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.70 		$$\mathbbm
+                 {E}_{q_{\phi}(z|x)}[\log p_{\theta}(x|z)]\approx \frac{1}{N...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+) [11] (./main.bbl
 
 LaTeX Warning: Empty `thebibliography' environment on input line 3.
 
@@ -940,16 +959,83 @@ LaTeX Warning: Empty `thebibliography' environment on input line 3.
 
 
 
+]
+\openout2 = `./appendix/appendix.aux'.
+
+ (./appendix/appendix.tex
+
+! LaTeX Error: Environment appendices undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.4 \begin{appendices}
+                      
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+! Undefined control sequence.
+<argument>  D_\text {KL}(P||Q) & = \mathbbm 
+                                            {E}_P\Big [\textrm {log}\frac {P...
+l.10 \end{align*}
+                 
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+<argument>  D_\text {KL}(P||Q) & = \mathbbm 
+                                            {E}_P\Big [\textrm {log}\frac {P...
+l.10 \end{align*}
+                 
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+<recently read> \mathbbm 
+                         
+l.11 ...er two multivariate Gaussians in $\mathbbm
+                                                  {R}^n$, $P_1$ and $P_2$
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+! LaTeX Error: \begin{document} ended by \end{appendices}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.29 \end{appendices}
+                     
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+) [13
+
+
 ] (./main.aux (./sections/intro.aux) (./sections/kmeans.aux)
-(./sections/gmm.aux) (./sections/em_general.aux) (./sections/vae.aux))
+(./sections/gmm.aux) (./sections/em_general.aux) (./sections/vae.aux)
+(./appendix/appendix.aux))
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 7ADC6FF490B8A8B97C8457E0B1BBFD8C;2163.
+(rerunfilecheck)             Checksum: 97CD851C2A3CEFF4DE0AADF12B193640;2550.
  ) 
 Here is how much of TeX's memory you used:
- 18618 strings out of 478238
- 299182 string characters out of 5850455
+ 18653 strings out of 478238
+ 300292 string characters out of 5850455
  663927 words of memory out of 5000000
- 36341 multiletter control sequences out of 15000+600000
+ 36366 multiletter control sequences out of 15000+600000
  497089 words of font info for 171 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  60i,15n,65p,1001b,534s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -977,10 +1063,10 @@ ist/fonts/type1/public/cm-super/sfrm1200.pfb></usr/share/texmf-dist/fonts/type1
 /public/cm-super/sfrm1728.pfb></usr/share/texmf-dist/fonts/type1/public/cm-supe
 r/sfsl1095.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfti1095.pfb>
 </usr/share/texmf-dist/fonts/type1/public/cm-super/sftt1200.pfb>
-Output written on main.pdf (14 pages, 546895 bytes).
+Output written on main.pdf (15 pages, 555745 bytes).
 PDF statistics:
- 318 PDF objects out of 1000 (max. 8388607)
- 238 compressed objects within 3 object streams
- 45 named destinations out of 1000 (max. 500000)
- 49794 words of extra memory for PDF output out of 51595 (max. 10000000)
+ 332 PDF objects out of 1000 (max. 8388607)
+ 251 compressed objects within 3 object streams
+ 48 named destinations out of 1000 (max. 500000)
+ 49810 words of extra memory for PDF output out of 51595 (max. 10000000)
 

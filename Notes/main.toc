@@ -13,3 +13,5 @@
 \contentsline {subsection}{\numberline {1.4.3}Categorical Latent Variables}{8}{subsection.1.4.3}%
 \contentsline {chapter}{\numberline {2}Deep Generative Models}{9}{chapter.2}%
 \contentsline {section}{\numberline {2.1}Variational Autoencoder}{9}{section.2.1}%
+\contentsline {chapter}{Appendix}{13}{appendix*.5}%
+\contentsline {section}{\numberline {A.1}KL Divergence between Two Normal Distribution}{13}{section.Alph0.1}%
