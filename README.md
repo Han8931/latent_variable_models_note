@@ -4,3 +4,6 @@
 - GMM
 - ELBO
 - VAE
+
+### References:
+- Pattern recognition and machine learning, Christopher Bishop.
