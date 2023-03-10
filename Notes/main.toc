@@ -11,3 +11,5 @@
 \contentsline {subsection}{\numberline {1.4.1}ELBO}{7}{subsection.1.4.1}%
 \contentsline {subsection}{\numberline {1.4.2}Expectation Maximization}{8}{subsection.1.4.2}%
 \contentsline {subsection}{\numberline {1.4.3}Categorical Latent Variables}{8}{subsection.1.4.3}%
+\contentsline {chapter}{\numberline {2}Deep Generative Models}{9}{chapter.2}%
+\contentsline {section}{\numberline {2.1}Variational Autoencoder}{9}{section.2.1}%
